@@ -5,8 +5,8 @@ import{
     HarmCategory,
 }  from "@google/generative-ai";
 
-const MODEL_NAME = "gemini-1.5-flash" ;
-const API_KEY = "AIzaSyB9uVddDi3Zfdmqe33pUSptuo1Mm86h2Mc";
+const MODEL_NAME = "gemini-2.5-flash" ;
+const API_KEY = "AIzaSyDBqFXW1EMxDn0rDnVhcfNcdFLtntMe9fs";
 
 
 async function runChat(prompt){
@@ -79,5 +79,6 @@ export default runChat;
 // };
 
 // export default runChat;
+
 
 
